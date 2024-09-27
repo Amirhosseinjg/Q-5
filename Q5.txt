@@ -1,0 +1,12 @@
+using System;
+namespace firstprogram {
+    class program {
+        void main (string [] args) {
+            console.writeline ("Name");
+            string name = console.readline();
+            console.writeline ("Last Name");
+            string last = console.readline();
+            console.Writeline(name+""+last);
+        }
+    }
+}
